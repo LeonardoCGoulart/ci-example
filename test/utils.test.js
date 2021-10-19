@@ -10,6 +10,13 @@ describe('Utils', () => {
         });
     });
 
+    describe('acharCaracter b', () => {
+        test('acharCaracter b', () => {
+            expect(acharCaracter(3, 'abc', 'b'))
+                .toBe(2);
+        });
+    });
+
     describe('acharCaracter', () => {
         test('comprimento invalido', () => {
             expect(acharCaracter(-4, 'abcde', 'c'))
