@@ -1,5 +1,7 @@
 const { gerarNumeroAleatorio, acharCaracter } = require('../lib/utils');
 
+//commit apenas para fins de estudos
+
 describe('Utils', () => {
     describe('gerarNumeroAleatorio', () => {
         test('fim nao pode ser negativo', () => {
